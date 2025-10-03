@@ -59,8 +59,6 @@ fun ProfileScreen(
         )
 
         Spacer(modifier = Modifier.height(16.dp))
-
-        // Tên
         Text(
             text = "Warren ne",
             style = MaterialTheme.typography.headlineSmall.copy(
@@ -71,7 +69,6 @@ fun ProfileScreen(
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Địa chỉ
         Text(
             text = "Go Cong Town, Tien Giang",
             style = MaterialTheme.typography.bodyMedium.copy(fontSize = 16.sp)
